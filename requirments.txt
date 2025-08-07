@@ -1,3 +1,1 @@
-streamlit
-transformers
-torch
+pip intasll streamlit transformers torch
