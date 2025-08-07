@@ -1,6 +1,7 @@
 import streamlit as st
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
+pip install -r requirements.txt
 
 # Load pre-trained model and tokenizer
 tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-small")
